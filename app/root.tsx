@@ -12,8 +12,8 @@ import globalStylesUrl from '~/styles/global.css';
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'New Remix App',
-  viewport: 'width=device-width,initial-scale=1',
+  title: 'Infância | CERV',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
 });
 
 export const links: LinksFunction = () => {

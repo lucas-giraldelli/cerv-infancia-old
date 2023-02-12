@@ -17,9 +17,10 @@ export default function LoginRoute() {
         />
         <form className="login-box">
           <label>Usuário</label>
-          <input type="text" placeholder="Usuário" />
+          <input type="text" placeholder="Nome de usuário" />
           <label>Senha</label>
-          <input type="password" placeholder="Senha" />
+          <input type="password" placeholder="Sua senha" />
+          <button type="submit">Entrar</button>
         </form>
       </div>
       <div className="hero"></div>
