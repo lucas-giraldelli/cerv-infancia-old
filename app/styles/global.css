@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('/fonts/roboto/roboto.woff') format('woff'),
+    url('/fonts/roboto/roboto.tff') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --color-background: hsl(300, 19%, 63%);
+  --font-display: 'roboto';
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  font-family: var(--font-display);
+  background-repeat: no-repeat;
+  min-height: calc(100vh - env(safe-area-inset-bottom, 100vh));
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+input {
+}
